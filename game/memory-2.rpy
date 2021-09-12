@@ -21,6 +21,25 @@ image bg6_4:
         "images/背景/夜空.jpg"
         size(1920,1080)
 
+image bg6_6:
+    contains:
+        "images/背景/黑夜.png"
+        size(1920,1080)
+
+image bg6_7:
+    contains:
+        "images/背景/放大.png"
+        size(1920,1080)
+
+image bg6_5:
+    contains:
+        "images/背景/tmp.png"
+        size(1920,2160)
+
+transform trans6_1:
+    pos(0,0)
+    linear 0.2 pos(0,-1080)
+
 label memory_2:
 
     scene bg6_1
@@ -192,7 +211,7 @@ label memory_2:
 
     scene white
     with dissolve
-    scene bg6_4
+    scene bg6_6
     with dissolve
 
     ch6_1 "呼——"
@@ -221,10 +240,7 @@ label memory_2:
 
     "稍微休息了一会，在治疗魔法的效果完全发挥之后，我从地上爬了起来。"
 
-    scene black
-    with dissolve
-    scene bg6_3
-    with dissolve
+    scene bg6_5 at trans6_1
 
     "这片森林非常大，即使传送了一次，也还在森林里面。"
 
@@ -238,6 +254,8 @@ label memory_2:
 
     "我环顾四周，找了一棵比较粗的树，背靠在了上面。"
 
+    scene bg6_7
+    with dissolve
 ## 背景变化，聚焦左下角大树
 
     "这些人真的太可怕了，两次抓住了我分神的瞬间偷袭，每次都是致命攻击……*演出之后改"
@@ -262,14 +280,15 @@ label memory_2:
 
     ch6_1 "……"
 
-## 背景恢复大图：夜晚森林-黑暗
+    scene bg6_3
+    with dissolve
 
     "树林再一次恢复了沉默，只能听到清风扫过树叶的响声。"
 
+    "我的意识也慢慢滑入了黑暗。"
+
     scene black
     with Dissolve(3)
-
-    "我的意识也慢慢滑入了黑暗。"
 
     "然而那天晚上，就在我半睡半醒之时，"
 
@@ -277,10 +296,10 @@ label memory_2:
 
     "这只不过是一个突然产生的幻觉，一个转瞬即逝的噩梦。"
 
-## 直接跳转
-## BGI：夜晚森林-月光
-
     "当我被惊醒，重新抬起头环顾四周时。"
+
+    scene bg6_1
+    with dissolve
 
     "幻象已经消逝，周围的一切都恢复了安静的外表。"
 

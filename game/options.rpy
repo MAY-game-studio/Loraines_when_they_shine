@@ -11,7 +11,7 @@
 ##
 ## 带有 _() 的字符串表示其可被翻译。
 
-define config.name = _("Loraine when they shine")
+define config.name = _("Loraines when they shine")
 
 
 ## 决定上面给出的标题是否显示在标题界面屏幕。设置为 False 来隐藏标题。
@@ -33,7 +33,7 @@ define gui.about = _p("""
 ## 在生成的发布版中，可执行文件和目录所使用的短名称。此处必须是仅 ASCII 字符，并
 ## 且不得包含空格、冒号和分号。
 
-define build.name = "WhenTheLoraineShine"
+define build.name = "LorainesWhenTheyShine"
 
 
 ## 音效和音乐 #######################################################################
@@ -130,7 +130,7 @@ default preferences.afm_time = 15
 ##
 ## 该命令一般不应变更，若要变更，应为有效字符串而不是表达式。
 
-define config.save_directory = "WhenTheLoraineShine-1630011347"
+define config.save_directory = "LorainesWhenTheyShine-1630011347"
 
 
 ## 图标 ##########################################################################
