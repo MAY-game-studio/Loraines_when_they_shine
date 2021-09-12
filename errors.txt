@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 877: u'delay' is not a keyword argument or valid child for the screen statement.
+    delay 2
+         ^
+
+Ren'Py Version: Ren'Py 7.4.4.1439
+Sat Sep 11 03:08:23 2021
